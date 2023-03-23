@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './imageCarousel.css'
 
-export const ImageCarousel = () => {
+function ImageCarousel() {
     const images = [
         "https://source.unsplash.com/random/500x500?lion",
         "https://source.unsplash.com/random/500x500?wolf",
@@ -39,10 +39,10 @@ export const ImageCarousel = () => {
             <h1>Image Carousel</h1>
             <div className="carousel">
                 <button className="left" onClick={handleClickLeft}>
-                    <img className="icon" src="src\assets\left-arrow.png" alt="left-arrow" />
+                    <i className="fa-solid fa-arrow-left fa-2xl"></i>
                 </button>
                 <button className="right" onClick={handleClickRight}>
-                    <img className="icon" src="src\assets\right-arrow.png" alt="right-arrow" />
+                    <i className="fa-solid fa-arrow-right fa-2xl"></i>
                 </button>
 
                 <img className="carousel-img" src={images[index]} />
@@ -52,3 +52,4 @@ export const ImageCarousel = () => {
         </div>
     )
 }
+export default ImageCarousel;

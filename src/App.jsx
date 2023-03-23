@@ -1,7 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import { ImageCarousel } from './components/imageCarousel/ImageCarousel'
-import viteLogo from '/vite.svg'
+
+
+import ImageCarousel from './components/imageCarousel/ImageCarousel'
+
 
 
 function App() {

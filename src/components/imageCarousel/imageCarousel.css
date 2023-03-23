@@ -31,7 +31,7 @@ button{
     width:500px
 } */
 
-.icon{
+i{
     width: 4rem;
 }
 @media screen and (max-width:750px) {
