@@ -36,7 +36,7 @@ function ImageCarousel() {
 
     return (
         <div className="container">
-            <h1>Image Carousel</h1>
+            <h1>Project 1: Image Carousel</h1>
             <div className="carousel">
                 <button className="left" onClick={handleClickLeft}>
                     <i className="fa-solid fa-arrow-left fa-2xl"></i>

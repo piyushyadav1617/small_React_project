@@ -1,5 +1,6 @@
 
 
+import Accordion from './components/accordion/accordion'
 import ImageCarousel from './components/imageCarousel/ImageCarousel'
 
 
@@ -11,6 +12,7 @@ function App() {
     <div >
 
       <ImageCarousel />
+      <Accordion />
     </div>
   )
 }
