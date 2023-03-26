@@ -1,5 +1,5 @@
-*{
-    margin-left: 0;
+body{
+    margin: 0;padding: 0;
 }
 
 button{
@@ -13,6 +13,7 @@ button{
 
 
 .container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8c072;
     min-height: fit-content;
     height: 100vh;
